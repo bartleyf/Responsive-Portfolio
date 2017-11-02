@@ -238,11 +238,29 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 980px) {
+  body {
+    background-color: #333;
+  }
+  .container {
+    width: 600px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   body {
     background-color: #333;
   }
-  .wrapper {
-    width: 600px;
+  .container {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #333;
+  }
+  .container {
+    width: 300px;
   }
 }
